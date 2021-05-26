@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Raleway-Thin", sans-serif;
+    src: url(Raleway-Thin.ttf);
+}
+body{
+    font-family: "Raleway-Thin", sans-serif;
+}
