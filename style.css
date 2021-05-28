@@ -5,3 +5,43 @@
 body{
     font-family: "Raleway-Thin", sans-serif;
 }
+
+#bloc-page{
+    width: 1750px;
+    margin: auto;
+}
+#logo img{
+    width: 140px;
+    height: 60px;
+    float: left;
+}
+
+ul{
+    list-style: none;
+}
+
+.puce{
+    margin-left: 60%;
+        
+}
+ul.puce li{
+    display: inline;
+    margin-left: 20%;
+}
+.puce a{
+    text-decoration: none;
+    color: #0065FC;
+}
+.puce a:visited{
+    color: black;
+}
+#titre_principal h1{
+    padding-top: 2.7em;
+    font-size: 1.6em;
+}
+#titre_principal p{
+    font-size: 1.2em;
+}
+.recherche li{
+    display: inline;
+}
