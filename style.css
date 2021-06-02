@@ -42,6 +42,131 @@ ul.puce li{
 #titre_principal p{
     font-size: 1.2em;
 }
-.recherche li{
+
+
+.search {
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;    
+}
+#test{
+    border-top: solid;
+    border-bottom: solid;
+    border-width: thin;
+    border-right-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    
+}
+.search i, p{
     display: inline;
+        
+}
+.search i{
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 10px;   
+}
+
+.search, strong {
+    margin-left: 15px;
+}
+.search span{
+    color: white;
+    margin-left: 212px;
+    border-left: solid;
+    border-width: thin;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    background-color: #0065FC;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.filtre, li{
+    border-style: none;
+}
+.filtre *{
+    display: inline;
+    margin-top: 50px;
+}
+.filtre i{
+    padding-left: 14px;
+    color: #0065FC;
+    width: 30px;
+    background-color: #DEEBFF;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.filtre li{
+    margin-left: 50px;
+    border:solid;
+    border-width: thin;
+    border-radius: 20px;
+    padding: 10px 10px 10px 0px;
+}
+.filtre p{
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.loge{
+    margin-left: 23px;
+    margin-top: 60px;
+}
+.loge i{
+    color: white;
+    border: solid;
+    border-color: black;
+    border-width: thin;
+    border-radius: 9px;
+    background-color: blue;
+}
+
+
+.section1 {
+    border: none;
+    border-width: thin;
+    border-radius: 1.5em;
+    background-color: #F2F2F2;
+    padding-top: 3em;
+    width: 1000px;
+}
+.section1 img{
+    border-top-left-radius: 1.7em;
+    border-top-right-radius: 1.7em;
+    width: 225px;
+    height: 150px;
+}
+
+.cannebiere{
+    background-color: white;
+    padding: 8px 8px 8px 8px;
+    border: none;
+    border-radius: 1.7em;
+}
+
+.mer{
+    background-color: white;
+    padding: 8px 8px 8px 8px;
+    border: none;
+    border-radius: 1.7em;
+}
+
+#content{
+    display: flex;
+    justify-content: space-around;
+}
+#hb{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2.5em;
 }
