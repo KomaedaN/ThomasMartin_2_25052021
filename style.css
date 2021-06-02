@@ -56,8 +56,9 @@ ul.puce li{
     border-width: thin;
     border-right-style: none;
     padding-top: 15px;
-    padding-bottom: 15px; 
-    
+    padding-bottom: 15px;
+    margin-right: 15%;
+    border-color: #F2F2F2;    
 }
 .search i, p{
     display: inline;
@@ -78,7 +79,6 @@ ul.puce li{
 }
 .search span{
     color: white;
-    margin-left: 212px;
     border-left: solid;
     border-width: thin;
     padding-left: 10px;
@@ -98,18 +98,19 @@ ul.puce li{
     margin-top: 50px;
 }
 .filtre i{
-    padding-left: 14px;
+    padding-left: 13px;
     color: #0065FC;
     width: 30px;
     background-color: #DEEBFF;
-    border-radius: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-radius: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
 .filtre li{
     margin-left: 50px;
     border:solid;
-    border-width: thin;
+    border-width: 2px;
+    border-color: #F2F2F2;
     border-radius: 20px;
     padding: 10px 10px 10px 0px;
 }
