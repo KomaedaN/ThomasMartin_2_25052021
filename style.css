@@ -1,13 +1,13 @@
 @font-face {
-    font-family: "Raleway-Thin", sans-serif;
-    src: url(Raleway-Thin.ttf);
+    font-family: "Raleway", sans-serif;
+    src: url(Raleway-ExtraLight.ttf);
 }
 body{
-    font-family: "Raleway-Thin", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 #bloc-page{
-    width: 1750px;
+    width: 80%;
     margin: auto;
 }
 #logo img{
@@ -18,15 +18,18 @@ body{
 
 ul{
     list-style: none;
+    padding: 0px;
 }
 
 .puce{
-    margin-left: 60%;
+    margin-left: 62%;
+    padding-top: 2%;
         
 }
 ul.puce li{
     display: inline;
-    margin-left: 20%;
+    margin-left: 17%;
+    font-weight: bold;
 }
 .puce a{
     text-decoration: none;
@@ -36,7 +39,6 @@ ul.puce li{
     color: black;
 }
 #titre_principal h1{
-    padding-top: 2.7em;
     font-size: 1.6em;
 }
 #titre_principal p{
@@ -45,48 +47,42 @@ ul.puce li{
 
 
 .search {
-    margin-top: 20px;
-    margin-left: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;    
+    padding-top: 2.2%;  
 }
 #test{
     border-top: solid;
     border-bottom: solid;
     border-width: thin;
     border-right-style: none;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-right: 15%;
-    border-color: #F2F2F2;    
+    padding: 0.85%;
+    padding-right: 10%;
+    border-color: #F2F2F2;   
 }
 .search i, p{
     display: inline;
         
 }
 .search i{
-    padding-right: 10px;
-    padding-top: 15px;
-    padding-bottom: 18px;
+    padding: 1%;
+    margin-right: -0.3%;
     background-color: #F2F2F2;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
-    padding-left: 10px;   
+      
 }
 
-.search, strong {
+.search strong {
     margin-left: 15px;
 }
 .search span{
     color: white;
     border-left: solid;
     border-width: thin;
-    padding-left: 10px;
-    padding-top: 15px;
-    padding-bottom: 18px;
+    padding: 0.9%;
     background-color: #0065FC;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    font-weight: bold;
     
 }
 
@@ -98,21 +94,21 @@ ul.puce li{
     margin-top: 50px;
 }
 .filtre i{
-    padding-left: 13px;
     color: #0065FC;
-    width: 30px;
+    width: 40px;
     background-color: #DEEBFF;
-    border-radius: 20px;
-    padding-top: 13px;
-    padding-bottom: 13px;
+    border-radius: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 20px;
 }
 .filtre li{
-    margin-left: 50px;
+    margin-left: 40px;
     border:solid;
     border-width: 2px;
     border-color: #F2F2F2;
-    border-radius: 20px;
-    padding: 10px 10px 10px 0px;
+    border-radius: 25px;
+    padding: 15px 25px 15px 0px;
 }
 .filtre p{
     padding-left: 10px;
@@ -120,8 +116,7 @@ ul.puce li{
 }
 
 .loge{
-    margin-left: 23px;
-    margin-top: 60px;
+    margin-top: 2.5%;
 }
 .loge i{
     color: white;
@@ -131,35 +126,46 @@ ul.puce li{
     border-radius: 9px;
     background-color: blue;
 }
+.allm{
+    display: flex;
+    
+}
 
-
-.section1 {
+article{
+    margin-top: 2.5%;
     border: none;
     border-width: thin;
     border-radius: 1.5em;
     background-color: #F2F2F2;
-    padding-top: 3em;
-    width: 1000px;
+    padding: 2em 2em 4em 2em;
+    width: 55em;
+}
+#hebergement{
+    padding-left: 3%;
+    margin-bottom: 3%;
+    font-size: 1.5em;
 }
 .section1 img{
     border-top-left-radius: 1.7em;
     border-top-right-radius: 1.7em;
-    width: 225px;
-    height: 150px;
+    width: 15em;
+    height: 7em;
+    object-fit: cover;
 }
 
 .cannebiere{
     background-color: white;
-    padding: 8px 8px 8px 8px;
+    padding: 5px;
     border: none;
     border-radius: 1.7em;
 }
 
 .mer{
     background-color: white;
-    padding: 8px 8px 8px 8px;
+    padding: 5px;
     border: none;
     border-radius: 1.7em;
+    margin-bottom: 6%;
 }
 
 #content{
@@ -170,4 +176,75 @@ ul.puce li{
     display: flex;
     justify-content: space-around;
     padding-top: 2.5em;
+}
+.fas.fa-star{
+    color: #0065FC;
+}
+.txt{
+    padding-left: 6%;
+    padding-bottom: 3%;
+    padding-top: 1%;
+}
+.texte{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#Afficher{
+    padding-left: 3%;
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+aside{
+    margin-top: 1.7%;
+    margin-left: 3%;
+    border: none;
+    border-width: thin;
+    border-radius: 1.5em;
+    background-color: #F2F2F2;
+    padding: 2em 2em 4em 2em;
+    width: 55em;
+}
+aside img{
+    border-top-left-radius: 1.7em;
+    border-bottom-left-radius: 1.7em;
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+}
+#populaires{
+    font-size: 1.5em;
+}
+.popu{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -4.7%;
+}
+.fas.fa-chart-line{
+    font-size: 2em;
+    margin-top: 6%;
+}
+.soleil{
+    background-color: white;
+    border: none;
+    border-radius: 1.7em;
+    padding: 0px 0px 1.1% 1.7%;
+    margin-bottom: 5%; /*à changer à la fin*/
+}
+.soleil img{
+    padding-top: 6.5px;
+    float: left;
+}
+.bol{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.popucontent{
+    text-align: center;
+    padding-top: 10%;
+    padding-right: 13%;
+}
+.popucontent i{
+    padding-top: 14%;
 }
