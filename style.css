@@ -128,7 +128,8 @@ ul.puce li{
 }
 .allm{
     display: flex;
-    
+    margin-bottom: 5%;
+
 }
 
 article{
