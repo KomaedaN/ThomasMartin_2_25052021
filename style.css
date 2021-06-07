@@ -180,8 +180,14 @@ article{
     justify-content: space-around;
     padding-top: 2.5em;
 }
-.fas.fa-star{
+#colori{
     color: #0065FC;
+    float: left;
+    margin-right: 2%;
+}
+
+#grey i{
+    color: gray;
 }
 .txt{
     padding-left: 6%;
@@ -255,12 +261,12 @@ aside img{
     padding-top: 6%;
     padding-right: 13%;
 }
-.popucontent i{
-    padding-top: 14%;
-}
+
 .star{
+    display: -webkit-box;
     margin-left: 50%;
     padding-top: 3.5%;
+    padding-bottom: 5%;
 }
 #section2{
     margin-bottom: 7%;
@@ -341,4 +347,49 @@ footer{
 }
 .text3 {
     margin-left: 16%;
+}
+@media all and (max-width: 1024px)
+{
+    #bloc-page
+    {
+        width: 40%;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    article{
+       border-color: none;
+    }
+    .allm{
+        flex-direction: column;
+    }
+    #content{
+        flex-direction: column;
+    }
+    #hb{
+        flex-direction: column;
+        padding-top: 0;
+    }
+    #pic{
+        flex-direction: column;
+    }
+    #pic img{
+        height: 13em;
+    }
+    #pic{
+        border-radius: 1.5em;
+        box-shadow: 1px 1px 4px rgb(175, 171, 171);
+     
+
+    }
+    #fort{
+        margin-bottom: 0;
+    }
+    .petit{
+        margin-bottom: 0;
+    }
+
+    .mer{
+        margin-bottom: 0;
+    }
 }
