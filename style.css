@@ -7,7 +7,7 @@ body{
 }
 
 #bloc-page{
-    width: 70%;
+    width: 78%;
     margin: auto;
 }
 #logo img{
@@ -206,7 +206,7 @@ aside{
     border-width: thin;
     border-radius: 1.5em;
     background-color: #F2F2F2;
-    padding: 0.1em 2em 1em 2em;
+    padding: 0.1em 2em 0.1em 2em;
     width: 55em;
 }
 aside img{
@@ -261,4 +261,84 @@ aside img{
 .star{
     margin-left: 50%;
     padding-top: 3.5%;
+}
+#section2{
+    margin-bottom: 7%;
+}
+#activite{
+    font-size: 1.5em;
+}
+#pic{
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+}
+#pic img{
+    width: 20em;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+    object-fit: cover;
+    padding-bottom: 5%;
+}
+.grand img{
+    height: 28em;
+}
+.grand {
+    border-radius: 1.5em;
+    box-shadow: 1px 1px 4px rgb(175, 171, 171);
+}
+#pic p{
+    font-weight: bold;
+    font-size: 1.22em;
+    padding-left: 7%;
+}
+#fort img{
+    height: 13em;
+}
+#fort{
+    border-radius: 1.5em;
+    box-shadow: 1px 1px 4px rgb(175, 171, 171);
+    margin-bottom: 18%;
+    padding-bottom: 5%;
+}
+#frioul img{
+    height: 7.5em;
+}
+#frioul{
+    border-radius: 1.5em;
+    box-shadow: 1px 1px 4px rgb(175, 171, 171);
+    padding-bottom: 5%;
+}
+.combo2 img{
+    height: 10em;
+}
+
+.petit {
+    border-radius: 1.5em;
+    box-shadow: 1px 1px 4px rgb(175, 171, 171);
+    margin-bottom: 18%;
+    padding-bottom: 5%;
+}
+.petit2 {
+    border-radius: 1.5em;
+    box-shadow: 1px 1px 4px rgb(175, 171, 171);
+    padding-bottom: 5%;
+    
+}
+footer{
+    margin: auto;
+    width: 87%;
+    border-color: #F2F2F2;
+    background-color: #F2F2F2;
+}
+#foot{
+    padding: 3em 0 2em 0;
+    display: flex;
+    margin-left: 6%;
+}
+.text2 {
+    margin-left: 16%;
+}
+.text3 {
+    margin-left: 16%;
 }
