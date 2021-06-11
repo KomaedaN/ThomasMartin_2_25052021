@@ -10,25 +10,31 @@ body{
     width: 78%;
     margin: auto;
 }
-#logo img{
+#logo {
     width: 140px;
     height: 60px;
     float: left;
 }
-
+#logo img {
+    width: 140px;
+    height: 60px;
+}
 ul{
     list-style: none;
     padding: 0px;
 }
-
+#blo {
+    display: flex;
+}
 .puce{
     margin-left: 62%;
     padding-top: 2%;
+    display: flex;
         
 }
 ul.puce li{
     display: inline;
-    margin-left: 17%;
+    margin-left: 50%;
     font-weight: bold;
 }
 .puce a{
@@ -359,9 +365,12 @@ footer{
         width: 100%;
         margin: 0;
     }
-    nav ul{
-        flex-direction: column;
+    #logo img{
+        height: 10em;
+        width: unset;
+        float: none;
     }
+    
     article{
        border-color: none;
     }
@@ -407,5 +416,33 @@ footer{
         border-top-left-radius: 1.7em;
         border-top-right-radius: 1.7em;
        }
-
+    ul.puce li{
+        font-size: 2.5em;
+        margin-left: 0;
+    }
+    .puce{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column-reverse;
+        margin-left: 0;
+        padding-top: 5%;
+    }
+    .hov{
+        display: inline;
+    }
+    #medheb{
+        
+    }
+    #medact{
+        margin-left: 20%;
+    }
+    #ins{
+        margin-left: 55%;
+        font-size: 1.3em;
+    }
+    #blo{
+        display: inline;
+        margin-top: 5em;
+    }
 }
+    
