@@ -126,6 +126,7 @@ ul.puce li{
     border-color: #F2F2F2;
     border-radius: 25px;
     padding: 15px 25px 15px 0px;
+    border-left: none;
 }
 .filtre p{
     padding-left: 10px;
@@ -135,13 +136,15 @@ ul.puce li{
 .loge{
     margin-top: 2.5%;
 }
-.loge i{
-    color: white;
+
+.fa-info:before {
+    content: "\f129";
+    color: #0065FC;
     border: solid;
-    border-color: black;
+    border-color: grey;
     border-width: thin;
-    border-radius: 9px;
-    background-color: blue;
+    border-radius: 100%;
+    padding: 0.4em 0.8em 0.4em 0.8em;
 }
 .allm{
     display: flex;
@@ -480,7 +483,7 @@ footer{
         margin-left: 5%;
     }
     #titre_principal{
-        padding-bottom: 4%;
+        padding-bottom: 8%;
     }
     .search{
         width: 90%;
@@ -495,7 +498,7 @@ footer{
         font-size: 190%;
     }
     #test{
-        padding: 3% 10% 2% 1%;
+        padding: 3.5% 10% 2.3% 1%;
         border-width: thick;
     }
     .search #rech {
@@ -512,6 +515,52 @@ footer{
     .search #rech {
         padding: 0;
         background-color: white;
+    }
+    #test{
+        font-size: 0.9em;
+    }
+    .filtre {
+        padding-top: 7%;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        font-size: 2em; 
+        flex-direction: column;  
+        margin-top: 1%;
+        margin-bottom: 10%;
+    }
+    .filtre * {
+        margin-top: 2%;
+        font-size: 1.1em;
+    }
+    .filtre li {
+        margin-left: 0;
+        border-radius: 50px;
+        padding: 2.4% 3% 2.4% 0%;
+        border-width: 4px;
+        border-left: none;
+    }
+    .filtre i{
+        padding: 3% 3% 3.2% 3%;
+        border-radius: 45px;
+    }
+    #alois{
+        margin-left: 1.5em;
+    }
+    .loge{
+        width: 90%;
+        margin: auto;
+    }
+    #log1{
+        font-size: 14.5px;
+    }
+    .fa-info:before {
+        content: "\f129";
+        padding: 0.9em 1.8em 0.9em 1.8em;
+        font-size: 0.7em;
+    }
+    #dans{
+        padding-left: 4em;
     }
 }
     
