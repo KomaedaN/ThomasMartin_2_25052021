@@ -75,7 +75,7 @@ ul.puce li{
     display: inline;
         
 }
-.search i{
+.search #gps1{
     padding: 1.1%;
     margin-right: -0.3%;
     background-color: #F2F2F2;
@@ -87,7 +87,7 @@ ul.puce li{
 .search strong {
     margin-left: 15px;
 }
-.search span{
+.search #rech{
     color: white;
     border-left: solid;
     border-width: thin;
@@ -97,6 +97,10 @@ ul.puce li{
     border-bottom-right-radius: 10px;
     font-weight: bold;
     
+}
+.fas.fa-search{
+    font-size: 0;
+    border-color: white;
 }
 
 .filtre, li{
@@ -421,6 +425,7 @@ footer{
         margin-left: 0;
     }
     .puce{
+        width: 100%;
         display: flex;
         flex-direction: column;
         flex-flow: column-reverse;
@@ -430,19 +435,83 @@ footer{
     .hov{
         display: inline;
     }
-    #medheb{
-        
-    }
-    #medact{
-        margin-left: 20%;
-    }
+    
+    
     #ins{
-        margin-left: 55%;
+        margin-left: 65%;
         font-size: 1.3em;
     }
     #blo{
         display: inline;
         margin-top: 5em;
+    }
+    .bcolor {
+        border-bottom: 3px solid #F2F2F2;
+        padding-bottom: 15px;
+        padding-left: 10.7%;
+        padding-right: 11%
+    }
+
+    .bcolor[data-active=true] {
+        border-bottom-color: #0065FC;
+    }
+    .hov a:hover{
+        color: #0065FC;
+        border-bottom: solid;
+        border-top: none;
+    }
+    #medact{
+        padding-right: 20%;
+    }
+    #titre_principal h1{
+        font-size: 230%;
+        padding-bottom: 3%;
+    }
+    #titreVac{
+        width:90%;
+        margin: auto;
+        
+    }
+    #titre_principal p {
+        font-size: 0.7em;
+
+    }
+    #centreVille{
+        margin-left: 5%;
+    }
+    #titre_principal{
+        padding-bottom: 4%;
+    }
+    .search{
+        width: 90%;
+        margin: auto;
+    }
+    .search #gps1{
+        padding: 5% 4% 3% 3%;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+    .fas.fa-map-marker-alt{
+        font-size: 190%;
+    }
+    #test{
+        padding: 3% 10% 2% 1%;
+        border-width: thick;
+    }
+    .search #rech {
+        font-size: 0;
+    }
+    .fas.fa-search{
+        font-size: 100%;
+        color: white;
+        background-color: #0065FC;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        padding: 6.7% 4% 3.5% 3%;
+    }
+    .search #rech {
+        padding: 0;
+        background-color: white;
     }
 }
     
