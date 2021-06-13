@@ -383,6 +383,7 @@ footer{
     }
     .allm{
         flex-direction: column;
+        flex-flow: column-reverse;
     }
     #content{
         flex-direction: column;
@@ -393,13 +394,6 @@ footer{
     }
     #pic{
         flex-direction: column;
-    }
-    #pic img{
-        height: 13em;
-    }
-    #pic{
-        border-radius: 1.5em;
-        box-shadow: 1px 1px 4px rgb(175, 171, 171);
     }
     #fort{
         margin-bottom: 0;
@@ -550,6 +544,7 @@ footer{
     .loge{
         width: 90%;
         margin: auto;
+        padding-bottom: 5em;
     }
     #log1{
         font-size: 14.5px;
@@ -561,6 +556,118 @@ footer{
     }
     #dans{
         padding-left: 4em;
+    }
+    aside{
+        border-radius: 0;
+        margin-left: 1%;
+        padding-bottom: 4em;
+    }
+    aside img {
+        width: 20em;
+        height: 17em;
+
+    }
+    #populaires {
+        font-size: 3em;
+    }
+    .fas.fa-chart-line {
+        font-size: 3em;
+        margin-top: 8%;
+    }
+    .soleil{
+        margin-bottom: 0;
+        width: 90%;
+        margin: auto;
+    }
+    .bol{
+        font-weight: 900;
+        padding-left: 60%;
+        font-size: 1.58em;
+    }
+    .nuit{
+        padding-left: 13.5%;
+    }
+    .star{
+        margin-left: 60%;
+        padding-bottom: 0;
+        padding-top: 10%;
+    }
+    #colori{
+        padding-bottom: 2em;
+    }
+    aside h1{
+        font-size: 3em;
+    }
+    .cannebiere{
+        width: 88%;
+        margin: auto;
+        margin-bottom: 2.5%;
+    }
+    .section1 img{
+        width: 50.3em;
+    }
+    .texte {
+        font-size: 2em;
+    }
+    .size{
+        font-size: 1.5em;
+    }
+    .etoilesT{
+        font-size: 1.6em;
+        padding-top: 10px;
+    }
+    .etoilesG{
+    font-size: 1.6em;
+    padding-top: 10px;
+    }
+    #colori{
+        margin-right: 1%;
+    }
+    .mer{
+        width: 88%;
+        margin: auto;
+        margin-bottom: 2.5%;
+    }
+    #afficher{
+        font-size: 1.3em;
+    }
+    #section2{
+        width: 90%;
+        margin: auto;
+    }
+    #pic{
+        width: 95%;
+        margin: auto;
+        border-radius: 1.5em;
+    }
+    
+    #pic img{
+        width: 51.5em;
+        height: 18em;
+    }
+    #pic p{
+        font-size: 1.6em;
+    }
+    .grand {
+        margin-bottom: 3em;
+        padding-bottom: 5%;
+    }
+    
+    #fort, #frioul, .dame, .longchamp{
+        margin-bottom: 5%;
+    }
+    #foot{
+        display: block;
+        margin-left: 8%;
+    }
+    .footerText{
+        margin-left: 0;
+    }
+    #foot ul{
+        font-size: 0.7em;
+    }
+    footer{
+        width: 98%;
     }
 }
     
