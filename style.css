@@ -74,8 +74,8 @@ body{
     padding-right: 10%;
     border-color: #F2F2F2;   
 }
-.search i, p{
-    display: inline;
+.search {
+    display: flex;
         
 }
 .search #gps1{
@@ -217,14 +217,22 @@ body{
     color: #e3e3e3;
     font-size: 1rem;
 }
+.link-module{
+    text-decoration: none;
+    color: black;
+}
 .txt{
     padding: 0.5rem;
 }
 .texte{
     font-weight: bold;
     font-size: 1.1em;
+    margin-bottom: 3px;
+    margin-top: 0px;
 }
-
+.size{
+    margin-top: 2px;
+}
 #Afficher{
     padding-left: 3%;
     padding-top: 5%;
@@ -277,10 +285,6 @@ aside{
     font-weight: bold;
     font-size: 1.3rem;
     margin-bottom: 2%;    
-}
-
-.star{
-    padding-top: 3.5%;
 }
 #section2{
     margin-bottom: 7%;
@@ -380,10 +384,6 @@ footer{
     }
     #content{
         flex-direction: column;
-    }
-    #hb{
-        flex-direction: column;
-        padding-top: 0;
     }
     #pic{
         flex-direction: column;
