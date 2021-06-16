@@ -372,9 +372,6 @@ footer{
         float: none;
     }
     
-    article{
-       border-color: none;
-    }
     .allm{
         grid-template-columns: 1fr;
     }
