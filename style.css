@@ -56,6 +56,7 @@ body{
 }
 #titre_principal h1{
     font-size: 1.6em;
+    padding-top: 1rem
 }
 #titre_principal p{
     font-size: 1.2em;
@@ -111,24 +112,24 @@ body{
 }
 .filtre *{
     display: inline;
-    margin-top: 50px;
+    margin-top: 3rem;
 }
 .filtre i{
     color: #0065FC;
-    width: 40px;
+    width: 2.5rem;
     background-color: #DEEBFF;
-    border-radius: 30px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 20px;
+    border-radius: 2rem;
+    padding-top: 1.1rem;
+    padding-bottom: 1.2rem;
+    padding-left: 1.2rem;
 }
-.filtre #ecopuce, #alois, .rom, .pet{
-    margin-left: 40px;
+.filtres-puce{
+    margin-left: 3rem;
     border:solid;
     border-width: 2px;
     border-color: #F2F2F2;
-    border-radius: 25px;
-    padding: 15px 25px 15px 0px;
+    border-radius: 2rem;
+    padding: 1rem 1.5rem 1rem 0px;
     border-left: none;
 }
 .filtre p{
@@ -138,8 +139,12 @@ body{
 
 .loge{
     margin-top: 2.5%;
+    display: inline-flex;
 }
-
+#log1 {
+    margin-top: 0;
+    margin-left: 1rem;
+}
 .fa-info:before {
     content: "\f129";
     color: #0065FC;
@@ -298,11 +303,10 @@ aside{
     object-fit: cover;
 }
 #pic img{
-    width: 20em;
-    border-top-left-radius: 1.5em;
-    border-top-right-radius: 1.5em;
+    width: 20rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
     object-fit: cover;
-    padding-bottom: 5%;
 }
 .grand img{
     height: 28em;
@@ -311,10 +315,14 @@ aside{
     border-radius: 1.5em;
     box-shadow: 1px 1px 4px rgb(175, 171, 171);
 }
+.grand p{
+    padding-bottom: 1rem;
+}
 #pic p{
     font-weight: bold;
     font-size: 1.22em;
     padding-left: 7%;
+    margin-bottom: 0;
 }
 #fort img{
     height: 13em;
@@ -359,6 +367,13 @@ footer{
     padding: 3em 0 2em 0;
     display: flex;
     margin-left: 6%;
+}
+#foot li{
+    list-style: none;
+    padding-top: 1rem;
+}
+#foot ul{
+    padding-left: 0;
 }
 .footerText {
     margin-left: 16%;
@@ -513,7 +528,6 @@ footer{
     }
     .filtre * {
         margin-top: 2%;
-        font-size: 1.1em;
     }
     .filtre li {
         margin-left: 0;
@@ -526,9 +540,7 @@ footer{
         padding: 3% 3% 3.2% 3%;
         border-radius: 45px;
     }
-    #alois{
-        margin-left: 1.5em;
-    }
+    
     .loge{
         width: 90%;
         margin: auto;
