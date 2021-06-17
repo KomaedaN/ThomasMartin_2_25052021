@@ -62,7 +62,14 @@ body{
     font-size: 1.2em;
 }
 
-
+.search-bar{
+    width: 15rem;
+    padding-left: 2rem;
+    border-left: none;
+    border-right: none;
+    border-top: #F2F2F2 0.05rem solid;
+    border-bottom: #F2F2F2 0.05rem solid;    
+}
 .search {
     padding-top: 2.2%;  
 }
@@ -76,22 +83,21 @@ body{
     border-color: #F2F2F2;   
 }
 .search {
-    display: flex;
-        
+    display: inline-flex;
+    width: 100%;        
 }
 .search #gps1{
-    padding: 1.1%;
-    margin-right: -0.3%;
+    padding: 1.2rem;
     background-color: #F2F2F2;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
       
 }
 
 .search strong {
     margin-left: 15px;
 }
-.search #rech{
+.button-search{
     color: white;
     border-left: solid;
     border-width: thin;
@@ -100,12 +106,11 @@ body{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     font-weight: bold;
-    
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
 }
-.fas.fa-search{
-    font-size: 0;
-    border-color: white;
-}
+
 
 .filtre, li{
     border-style: none;
@@ -197,6 +202,10 @@ body{
     border-radius: 2rem;
     box-shadow: 1px 1px 4px grey;
     height: 100%;
+}
+.cannebiere:hover, .mer:hover, .soleil:hover, .grand:hover, #fort:hover, #frioul:hover, .dame:hover, .longchamp:hover{
+    transform: scale(1.1);
+    transition-duration: 0.7s;
 }
 
 .mer{
@@ -378,7 +387,23 @@ footer{
 .footerText {
     margin-left: 16%;
 }
-
+@media screen and (max-width: 1400px) {
+    .allm{
+        grid-template-columns: 1fr;
+    }
+    .populaires{
+        grid-column: 1/-1;
+    }
+    aside{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto 10rem;
+        column-gap: 2rem;
+        grid-row-start: 1;
+    }
+    .section1 {
+        grid-template-columns: 1fr;
+       }
+}
 @media all and (max-width: 1024px)
 {
     #bloc-page{
@@ -391,12 +416,6 @@ footer{
         float: none;
     }
     
-    .allm{
-        grid-template-columns: 1fr;
-    }
-    aside{
-        grid-row-start: 1;
-    }
     #content{
         flex-direction: column;
     }
@@ -419,9 +438,6 @@ footer{
         background-color: #ffffff;
         margin: auto;
     }
-    .section1 {
-        grid-template-columns: 1fr;
-       }
     .puce li{
         font-size: 2.5em;
         margin-left: 0;
@@ -501,7 +517,7 @@ footer{
         border-width: thick;
         font-size: 0.9em;
     }
-    .search #rech {
+    .search .button-search {
         font-size: 0;
     }
     .fas.fa-search{
@@ -512,7 +528,7 @@ footer{
         border-bottom-right-radius: 30px;
         padding: 6.7% 4% 3.5% 3%;
     }
-    .search #rech {
+    .button-search {
         padding: 0;
         background-color: white;
     }
@@ -665,6 +681,21 @@ footer{
     }
     footer{
         width: 98%;
+    }
+}
+    @media screen and (min-width: 650px)
+{
+    .button-search {
+    display: block;
+    }
+    .loupe{
+        display: none !important;
+    }
+}
+    @media screen and (max-width: 650px)
+{    
+    .button-search {
+    display: none;
     }
 }
     
