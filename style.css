@@ -10,25 +10,21 @@ body{
     width: 90rem;
     margin: auto;
 }
-#logo {
-    width: 140px;
-    height: 60px;
-    float: left;
-}
+
 #logo img {
-    width: 140px;
-    height: 60px;
+    width: 12em;
+    height: 5rem;
 }
 #blo {
     display: flex;
 }
-.puce{
-    margin-left: 62%;
-    margin-top: 3.1%;
+.title-head{
     display: flex;
-    list-style: none;
-    padding: 0px;
-        
+}
+.puce{
+    margin-left: 45rem;
+    margin-top: 2rem;
+    display: flex;        
 }
 .puce li{
     display: inline;
@@ -44,7 +40,7 @@ body{
 }
 .bcolor{
     color: black;
-    padding-top: 2.63em;
+    padding-top: 2.3rem;
 }
 .hov a:hover{
     color: #0065FC;
@@ -138,7 +134,7 @@ body{
     border-left: none;
 }
 .filtre p{
-    padding-left: 10px;
+    padding-left: 2%;
     font-weight: bold;
 }
 
@@ -387,7 +383,13 @@ footer{
 .footerText {
     margin-left: 16%;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1440px) {
+    #bloc-page{
+        width: 80rem;
+    }
+    .puce{
+        margin-left: 32rem;
+    }
     .allm{
         grid-template-columns: 1fr;
     }
@@ -399,9 +401,10 @@ footer{
         grid-template-rows: auto 10rem;
         column-gap: 2rem;
         grid-row-start: 1;
+        width: min(90%, 75rem);
     }
     .section1 {
-        grid-template-columns: 1fr;
+        width: min(90%, 75rem);
        }
 }
 @media all and (max-width: 1024px)
@@ -516,21 +519,6 @@ footer{
         padding: 3.5% 10% 2.3% 1%;
         border-width: thick;
         font-size: 0.9em;
-    }
-    .search .button-search {
-        font-size: 0;
-    }
-    .fas.fa-search{
-        font-size: 100%;
-        color: white;
-        background-color: #0065FC;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        padding: 6.7% 4% 3.5% 3%;
-    }
-    .button-search {
-        padding: 0;
-        background-color: white;
     }
     .filtre {
         padding-top: 7%;
@@ -685,7 +673,7 @@ footer{
 }
     @media screen and (min-width: 650px)
 {
-    .button-search {
+    .button-rechercher {
     display: block;
     }
     .loupe{
@@ -694,8 +682,11 @@ footer{
 }
     @media screen and (max-width: 650px)
 {    
-    .button-search {
-    display: none;
+    .button-rechercher {
+    display: none !important;
+    }
+    .loupe{
+        display: block;
     }
 }
     
