@@ -625,7 +625,7 @@ footer{
         width: 98%;
     }
 }
-    @media screen and (min-width: 900px)
+    @media screen and (min-width: 1019px)
 {
     .button-rechercher {
     display: block;
@@ -634,7 +634,7 @@ footer{
         display: none !important;  
     }
 }
-    @media screen and (max-width: 900px)
+    @media screen and (max-width: 1019px)
 {    
     .button-rechercher {
     display: none !important;
