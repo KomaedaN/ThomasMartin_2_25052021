@@ -681,6 +681,7 @@ footer{
     .cannebiere, .mer{
         width: 100%;
         height: 100%;
+        max-width: 90%;
     }
     #titre_principal p {
         font-size: 1.2em;
