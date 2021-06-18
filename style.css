@@ -688,5 +688,34 @@ footer{
     #foot li{
         font-size: 1rem;
     }
+    .search{
+        margin-left: 3rem;
+    }
+    .filtres-puce{
+        border-radius: 5rem;
+    }
+    .filtre i{
+        padding: 20px 10px 20px 15px;
+    }
+    #logo img{
+        height: 4rem;
+        width: 10rem;
+        padding-left: 1rem;
+        padding-top: 7px;
+        float: none;
+    }
+    .puce{
+        padding-top: 0;
+    }
+    .search-bar{
+        width: 100%;
+    }
+    #titre_principal{
+        padding-bottom: 0;
+    }
+    .filtre{
+        padding-top: 5%;
+        font-size: 1.5rem;
+    }
 }
     
