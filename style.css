@@ -407,7 +407,7 @@ footer{
         width: min(90%, 75rem);
        }
 }
-@media all and (max-width: 1024px)
+@media all and (max-width: 1025px)
 {
     #bloc-page{
         width: 100%;
@@ -625,7 +625,7 @@ footer{
         width: 98%;
     }
 }
-    @media screen and (min-width: 1019px)
+    @media screen and (min-width: 1024px)
 {
     .button-rechercher {
     display: block;
@@ -634,7 +634,7 @@ footer{
         display: none !important;  
     }
 }
-    @media screen and (max-width: 1019px)
+    @media screen and (max-width: 1024px)
 {    
     .button-rechercher {
     display: none !important;
