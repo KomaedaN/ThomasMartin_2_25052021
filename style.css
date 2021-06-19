@@ -592,6 +592,7 @@ footer{
         width: 88%;
         margin: auto;
         margin-bottom: 2.5%;
+        height: 100%;
     }
     #afficher{
         font-size: 1.3em;
@@ -652,6 +653,7 @@ footer{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: none;
         border-radius: 0;
+        width: auto;
     }
     .soleil{
         width: 100%;
@@ -709,13 +711,31 @@ footer{
     }
     .search-bar{
         width: 100%;
+        border-top: #F2F2F2 0.2rem solid;
+        border-bottom: #F2F2F2 0.2rem solid;
+        font-size: 1.1rem;
     }
     #titre_principal{
         padding-bottom: 0;
     }
+    #titre_principal h1{
+        font: 200%;
+    }
     .filtre{
         padding-top: 5%;
         font-size: 1.5rem;
+    }
+    .popucontent{
+        height: 100%;
+    }
+    .loge{
+        padding-left: 2rem;
+    }
+    #log1{
+        font-size: 1.2rem;
+    }
+    .inscrip{
+        
     }
 }
     
