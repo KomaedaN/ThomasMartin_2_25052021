@@ -18,6 +18,9 @@ body{
 #blo {
     display: flex;
 }
+.hidden{
+    display: none;
+}
 .title-head{
     display: flex;
 }
@@ -58,7 +61,7 @@ body{
 }
 
 .search-bar{
-    width: 15rem;
+    width: 18rem;
     padding-left: 2rem;
     border-left: none;
     border-right: none;
@@ -369,7 +372,6 @@ aside{
 footer{
     margin: auto;
     width: 87%;
-    border-color: #F2F2F2;
     background-color: #F2F2F2;
 }
 #foot{
